@@ -3,7 +3,7 @@
 Aquí podrán encontrar todos los proyectos que realicé para la materia Front End I en **Certified Tech Developper**!
 
 
-# Proyectos
+## Proyectos
 
  1. Lemon Pie
  2. Pet Shop
