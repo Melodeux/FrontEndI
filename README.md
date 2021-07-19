@@ -11,7 +11,7 @@ Aquí podrán encontrar todos los proyectos que realicé para la materia Front E
  4. Currículum Vitae Melissa García Ángel 
 
 
-![Hola mundirijillo!](http://25.media.tumblr.com/e58de2b4b8e6105a51a7429eb797c6b5/tumblr_mm4q2fDuWB1qa7x2uo1_400.gif)
+![Hola mundirijillo!](https://static.wixstatic.com/media/5fa17a_15ac4cbf640e435087b32ceeeb8a6857~mv2.gif)
 
 *En cada proyecto se puede ver mi progreso :3*
 
