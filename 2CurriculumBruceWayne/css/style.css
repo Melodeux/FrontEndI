@@ -1,0 +1,35 @@
+header{
+    background-color: #E6E6E6;
+    text-align: center;
+}
+h1, h2{
+    background-color: #C4C4C4;
+    color: #005677;
+    text-align: center;
+    padding: .5%;
+}
+.container{
+    margin: 8% auto;
+    max-width: 70%;
+}
+span{
+    font-weight: bold;
+}
+.datos-personales span{
+    font-style: italic;
+}
+ul,dl{
+    padding: 0 10%;
+}
+footer{
+    background-color: #005677;
+    color: white;
+    text-align: center;
+}
+footer h3{
+    font-weight: bold;
+    display: inline-block;
+}
+.icon-social{
+    margin: 1%;
+}
