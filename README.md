@@ -10,7 +10,8 @@ Aquí podrán encontrar todos los proyectos que realicé para la materia Front E
  3. [Currículum Vitae Batman](https://melodeux.github.io/FrontEndI/3PetShop "Web")
  4. [Currículum Vitae Melissa García Ángel](https://melodeux.github.io/FrontEndI/4MiCurriculum "Web")
  5. [Héroes](https://melodeux.github.io/FrontEndI/5Heroes "Web")
- 6. [Pizza](https://melodeux.github.io/FrontEndI/6 Pizza "Web")
+ 6. [Pizza](https://melodeux.github.io/FrontEndI/6Pizza "Web")
+ 7. [Game Shop](https://melodeux.github.io/FrontEndI/7GameShop "Web")
 
 
 ![Hola mundirijillo!](https://static.wixstatic.com/media/5fa17a_15ac4cbf640e435087b32ceeeb8a6857~mv2.gif)
