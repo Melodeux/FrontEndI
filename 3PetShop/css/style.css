@@ -1,3 +1,50 @@
-.barra1{
+/* id - clase - elemento prevalencen por ubicación en CSS, el "!important" arrasa con todo*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    background-color: #F0A83E;
+}
+
+header .top-tittle {
+    background-color: #222222;
+    color: white;
+}
+
+main {
+    background-color: #E5E5E5;
+}
+
+main .banner{
+    display: flex;
+    background-color: #F0A83E;
+    background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+    padding: 200px;
+    background-size: cover;
+}
+
+footer {
+    background-color: #3C2313;
+    color: white;
+    font-weight: bold;
+}
+
+footer .newsletter{
+    background-color: #F0A83E;
+
+}
+
+footer .contact-box p{
+    color: #8A8787;
+}
+
+footer .copyright{
     background-color: #222222;
 }

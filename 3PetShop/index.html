@@ -1,71 +1,145 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Petshop</title>
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css"> <!--El mío siempre va al último antes van las librerías-->
+    
 </head>
+
 <body>
     <header>
-    <div class="barra1">
+    <div class="top-tittle">
     <p>Grandes ofertas en comederos</p>
-        <p>Español</p>
-        <p>ARG$</p>   
+        <select name="lang" id="lang">
+            <option value="Español" selected>Español</option>
+            <option value="English">English</option>
+            <option value="Portuges">Português</option>
+        </select>
+ 
+        <select name="moneda" id="moneda">
+            <option value="COP" selected>COP$</option>
+            <option value="USD">USD$</option>
+            <option value="REAL">R$</option>
+        </select>
     </div>
     
-    <div>
-        <img src="img/Cat.png" alt="Logo">
-        <p>Front Cat & Dog</p>
-        <img src="img/Dog.png" alt="Logo">
+    <div class="logo-menu">
+        <h1><img src="img/Cat.png" alt="Logo"><span> Front</span>Cat&Dog <img src="img/Dog.png" alt="Logo"></h1>
+    
         <nav>
-            <ul type = "none">
-                <li>Categorias</li>
-                <li>Pets</li>
-                <li>Nosotros</li>
-                <li>Contactos</li>
+            <ul>
+                <li><i class="fas fa-paw icon-general"></i>Categorias</li>
+                <li><i class="fas fa-paw icon-general"></i>Pets</li>
+                <li><i class="fas fa-paw icon-general"></i>Nosotros</li>
+                <li><i class="fas fa-paw icon-general"></i>Contactos</li>
             </ul>
         </nav>
     </div>      
     </header>
 
     <main>
-        <section>
-            <img src= "img/bowl-and-pet-daities-on-green-background 1.png" alt="Comedero perro">
+        <section class="banner">
             <h2>¡Es un placer tenerte aquí! </h2>
             <p>¡Comederos en descuento!</p>
             <p>COMEDEROS</p>
         </section>
         
-        <section>
-            <h2>Productos Destacados</h2>
-                <ul type = "none">
-                    <li>Comederos </li>
-                    <li>Accesorios </li>
+        <section class="products-tittle">
+            <div class="tittle-container">
+                <i class="fas fa-paw icon-general"></i>
+                <h2>Productos Destacados</h2>
+                <ul>
+                    <li>Comederos</li>
+                    <p>-</p>
+                    <li>Accesorios</li>
+                    <p>-</p>
                     <li>Comida</li>
                 </ul>
+            </div>
+
         </section>
        
-        <section>
-        <img src="img/churrasquito.png" alt="Churrasquito">
-        <h2>Juguete Chusrraquito</h2>
-        <h3>$150</h3>
+        <section class="products-cards">
+            <div class="cards-container">
+                <div>
+                    <img src="img/churrasquito.png" alt="Churrasquito">
+                    <p>Juguete Chusrraquito</p>
+                    <p>$150</p>
+                </div>
+            
+                <div>
+                    <img src="img/comedero.png" alt="Comedero">
+                    <p>Comedero para perro</p>
+                    <p>$250</p>
+                </div> 
+
+                <div>
+                    <img src="img/Huesito.png" alt="Juguete">
+                    <p>Juguete Huesito</p>
+                    <p>$650</p>
+                </div>
+            </div>
         </section>
         
-        <section>
-            <img src="img/comedero.png" alt="Comedero">
-            <h2>Comedero para perro</h2>
-            <h3>$250</h3>
-        </section> 
-        <section>
-            <img src="img/Huesito.png" alt="Juguete">
-            <h2>Juguete Huesito</h2>
-            <h3>$650</h3>
+        <section class="contact-form">
+            <h3>Contáctanos</h3>
+            <div class="container-form">
+                <form action="">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" name="nombre" id="nombre">
+                    
+                    <label for="email">Ingresá tu correo electrónico</label>
+                    <input type="email" name="email" id="email">
+                    
+                    <label for="tel">Teléfono</label>
+                    <input type="tel" name="tel" id="tel">
+
+                    <div class="form-button">                    
+                        <button type="reset">Resetear</button>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
         </section>
+
     </main>
+
     <footer>
-        <p align="center">Todos los derechos reservados Front End</p>
+        <div class="newsletter">
+            <h3><i class="far fa-envelope"></i> Suscríbete para más novedades</h3>
+            <form action="">
+                <label for="email">Ingresá tu correo electrónico</label>
+                <input type="email" name="email" id="email"> 
+                <button type="submit">Suscribirme</button>
+            </form>
+        </div>
+
+        <div class="contact-box">
+            <div>
+            <h3><i class="bi bi-geo-alt"></i> Localidad</h3>
+            <p>Calle - Departamento</p>
+
+            <h3><i class="bi bi-telephone"></i> Teléfono</h3>
+            <p>Número de Teléfono</p>
+
+            <h3><i class="far fa-envelope"></i> Correo Electrónico</h3>
+            <p>Dirección de correo</p>
+            <div class= "logo-footer">
+                <h3><img src="img/Cat.png" alt="Logo"><span> Front</span>Cat&Dog <img src="img/Dog.png" alt="Logo"></h3>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Todos los derechos reservados Front End</p>            
+        </div>
     </footer>
 </body>
+
 </html>
