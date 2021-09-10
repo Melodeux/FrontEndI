@@ -1,8 +1,19 @@
-/* id - clase - elemento prevalencen por ubicación en CSS, el "!important" arrasa con todo*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body{
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-weight: 400;  
+}
+
+ h1 h2 h3 h4 h5 h6{
+    font-weight: 700;
 }
 
 li{
@@ -11,13 +22,16 @@ li{
 
 header{
     background-color: #F0A83E;
+    color: white;
 }
 
 header .top-tittle {
     background-color: #222222;
-    color: white;
 }
 
+.enfasis-head{
+    color:#3C2313;
+}
 main {
     background-color: #E5E5E5;
 }
@@ -30,15 +44,31 @@ main .banner{
     background-size: cover;
 }
 
+.split-products{
+    color: #666666;
+}
+
+
+main .card {
+    background-color: #FBFAF6;
+    width: auto;
+}
+
 footer {
     background-color: #3C2313;
     color: white;
-    font-weight: bold;
 }
 
 footer .newsletter{
     background-color: #F0A83E;
+}
 
+footer .container-contact-logo{
+    display: flex;
+}
+
+footer .container-contact-icons{
+    display:grid;
 }
 
 footer .contact-box p{
@@ -48,3 +78,21 @@ footer .contact-box p{
 footer .copyright{
     background-color: #222222;
 }
+
+.icons-bk{
+    width: 4.5em;
+    height: 4.5em;
+    background-color: #8A8787;
+    border-radius: 50%;
+    border:.3em solid #786960;;
+}
+
+.icon-foot{
+    Font-size: 2.8em;
+}
+
+.enfasis{
+    color: #F0A83E;
+}
+
+/* id - clase - elemento prevalencen por ubicación en CSS, el "!important" arrasa con todo*/
