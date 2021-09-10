@@ -6,8 +6,8 @@ Aquí podrán encontrar todos los proyectos que realicé para la materia Front E
 ## Proyectos
 
  1. [Lemon Pie](https://melodeux.github.io/FrontEndI/1LemonPie/ "Web") 
- 2. [Pet Shop](https://melodeux.github.io/FrontEndI/2CurriculumBruceWayne "Web")
- 3. [Currículum Vitae Batman](https://melodeux.github.io/FrontEndI/3PetShop "Web")
+ 2. [Currículum Vitae Batman](https://melodeux.github.io/FrontEndI/2CurriculumBruceWayne "Web")
+ 3. [Pet Shop](https://melodeux.github.io/FrontEndI/3PetShop "Web")
  4. [Currículum Vitae Melissa García Ángel](https://melodeux.github.io/FrontEndI/4MiCurriculum "Web")
  5. [Héroes](https://melodeux.github.io/FrontEndI/5Heroes "Web")
  6. [Pizza](https://melodeux.github.io/FrontEndI/6Pizza "Web")
