@@ -10,6 +10,7 @@
 
 body{
     font-weight: 400;  
+    color: #3C2313;
 }
 
  h1 h2 h3 h4 h5 h6{
@@ -20,71 +21,180 @@ li{
     list-style-type: none;
 }
 
+/************ HEADER **************/
 header{
     background-color: #F0A83E;
     color: white;
 }
 
-header .top-tittle {
+.top-tittle {
+    display: flex;
+    padding: .2em 2em;
     background-color: #222222;
+    justify-content:space-between;
+    font-size: .7em;
+    align-items: center;
+}
+
+.logo-menu {
+    display: flex;
+    padding: 1em 2em;
+    justify-content:space-between;
+    align-items: center; 
+}
+
+.logo {
+    font-size: 1.25em;
+}
+
+.menu1 {
+    display: flex;    
+    font-size: .8125em;
+}
+
+.menu1-category {
+    margin: 1em;
 }
 
 .enfasis-head{
     color:#3C2313;
 }
+
+/************ MAIN **************/
 main {
     background-color: #E5E5E5;
 }
 
-main .banner{
+.banner{
     display: flex;
     background-color: #F0A83E;
     background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
-    padding: 200px;
+    padding: 8em 4em;
     background-size: cover;
+    background-position: center right;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.banner h2{
+    background-color: #ffffff;
+    padding: .4em;
+    border-radius: 10px;
+}
+
+.banner p{
+    margin: 2em;
+}
+
+.banner h3 {
+    background-color: #F0A83E;
+    color: #f3f3f3;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.paw-products {
+    display: flex;
+    font-size: 5em;
+    justify-content: center;
+    padding: 0.2em; 
+}
+
+.products-d {
+    display: flex;
+    font-size: 2.5em;
+    justify-content: center;
+
 }
 
 .split-products{
+    position: relative;
+    display: flex;    
+    justify-content: center;
+}
+
+.split-products-e {
     color: #666666;
+    padding: 1em;
 }
 
+.cards-container {
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    padding: 2em 8em;
+}
 
-main .card {
+.card {
     background-color: #FBFAF6;
-    width: auto;
+    font-size: 0.9em;
 }
 
+.container-form{
+    display: flex;
+}
+
+/************ FOOTER **************/
 footer {
     background-color: #3C2313;
     color: white;
 }
 
-footer .newsletter{
+.newsletter{
+    display: flex;
+    justify-content:space-between;
+    padding: .5em 6em;
     background-color: #F0A83E;
 }
 
-footer .container-contact-logo{
+.container-contact-logo{
     display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: .5em 6em;
 }
 
-footer .container-contact-icons{
+.container-contact-icons{
+    display:flex;
+}
+
+.icons-box {
+    position: relative;
     display:grid;
+    align-items: center;
+    justify-content: center;
 }
 
-footer .contact-box p{
+.contact-box {
+    display: grid;
+    align-items: center;
+}
+
+.info{
+    font-size: .625em;
     color: #8A8787;
+
 }
 
-footer .copyright{
+.copyright{
+    font-size: 0.625em;
     background-color: #222222;
+    padding: 0.2em;
+    text-align: center;
 }
 
 .icons-bk{
-    width: 4.5em;
-    height: 4.5em;
+    display: flex;
+    width: 5em;
+    height: 5em;
     background-color: #8A8787;
     border-radius: 50%;
-    border:.3em solid #786960;;
+    border:.3em solid #786960;
+    margin: .5em;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-foot{
@@ -95,4 +205,5 @@ footer .copyright{
     color: #F0A83E;
 }
 
+/************ NOTES **************/
 /* id - clase - elemento prevalencen por ubicación en CSS, el "!important" arrasa con todo*/
