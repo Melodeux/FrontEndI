@@ -1,34 +1,34 @@
-let jugadaUsuario = parseInt(prompt("Vamos a jugar piedra papel o tijera, escoge 1 para piedra 🥔, 2 para papel 📄, 3 para tijera ✂"));
-let jugadaPc = parseInt(Math.random()*(3-1)+1);
+let userSelection = parseInt(prompt("Vamos a jugar piedra papel o tijera, escoge 1 para piedra 🥔, 2 para papel 📄, 3 para tijera ✂"));
+let pcSelection = parseInt(Math.random()*(3-1)+1);
 
-if (verificar() == true) {
+if (verifyUser() == true) {
     alert("No es una opción válida. 🤷‍♀️")
 } else {
-    alert(juego());
-    alert(jugadaPcVisual(jugadaPc));
+    alert(game());
+    alert(pcSelectionVisual(pcSelection));
 }
 
-function verificar (){
-    if (isNaN(jugadaUsuario) || jugadaUsuario>3 || jugadaUsuario<1) {
+function verifyUser(){
+    if (isNaN(userSelection) || userSelection>3 || userSelection<1) {
         return true;
     }else{
         return false;
     }}
 
-function jugadaPcVisual (jugadaPc){
-   if (jugadaPc == 1) {
+function pcSelectionVisual (pcSelection){
+   if (pcSelection == 1) {
     return ("Computadora saca piedra 🥔 ");
-} else if (jugadaPc == 2) {
+} else if (pcSelection == 2) {
     return ("Computadora saca papel 📄 ");
 } else {
     return ("Computadora saca tijera ✂ ");
 } 
 }
 
-function juego(){
-    if (jugadaUsuario == jugadaPc){
+function game(){
+    if (userSelection == pcSelection){
     return("¡Empataron! 🤣");
-}  else if (jugadaUsuario == 1 && jugadaPc == 3 || jugadaUsuario == 2 && jugadaPc == 3 || jugadaUsuario == 3 && jugadaPc == 2) {
+}  else if (userSelection == 1 && pcSelection == 3 || userSelection == 2 && pcSelection == 1 || userSelection == 3 && pcSelection == 2) {
     return("¡Ganaste! 😎");
 } else {
     return("Perdiste 😢");
