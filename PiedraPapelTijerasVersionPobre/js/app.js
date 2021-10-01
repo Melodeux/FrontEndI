@@ -27,35 +27,9 @@ function jugadaPcVisual (jugadaPc){
 
 function juego(){
     if (jugadaUsuario == jugadaPc){
-    return("¡Empararon! 🤣");
+    return("¡Empataron! 🤣");
 }  else if (jugadaUsuario == 1 && jugadaPc == 3 || jugadaUsuario == 2 && jugadaPc == 3 || jugadaUsuario == 3 && jugadaPc == 2) {
     return("¡Ganaste! 😎");
 } else {
     return("Perdiste 😢");
 }}
-
-
-
-// let array = [1, 2, 4, 8];
-// let acumular = 0;
-
-// for (let i = 0; i < array.length; i++) {
-//     acumular += array[i]
-//     console.log(acumular)
-// }
-
-// let edad = parseInt(prompt("Ingrese su edad"));
-
-// if (isNaN(edad)){2
-//     alert("No es un número.")
-// } else if(edad>18) {
-// console.log("Es mayor de edad");
-// }else{
-// console.log("Es menor de edad");
-// }
-
-//**********************
-// console.log("hola desde el html");
-// const nombre = "Mateo";
-
-// alert("Gracias por ingresar "+nombre);
