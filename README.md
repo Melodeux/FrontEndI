@@ -12,6 +12,7 @@ Aquí podrán encontrar todos los proyectos que realicé para la materia Front E
  5. [Héroes](https://melodeux.github.io/FrontEndI/5Heroes "Web")
  6. [Pizza](https://melodeux.github.io/FrontEndI/6Pizza "Web")
  7. [Game Shop](https://melodeux.github.io/FrontEndI/7GameShop "Web")
+ 8. [Piedra Papel Tirejas](https://melodeux.github.io/FrontEndI/PiedraPapelTijerasVersionPobre "Web")
 
 
 ![Hola mundirijillo!](https://static.wixstatic.com/media/5fa17a_15ac4cbf640e435087b32ceeeb8a6857~mv2.gif)
