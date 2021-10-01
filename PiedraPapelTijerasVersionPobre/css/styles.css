@@ -13,4 +13,9 @@ body{
     padding: 3px 15px;
     border-radius: 50vh;
     width: 100px;
+    border: 2px solid pink;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    cursor: pointer;
 }

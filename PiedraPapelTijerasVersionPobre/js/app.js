@@ -1,7 +1,7 @@
 document.querySelector('.btn');
 
 let userSelection = parseInt(prompt("Vamos a jugar piedra papel o tijera, escoge 1 para piedra 🥔, 2 para papel 📄, 3 para tijera ✂"));
-let pcSelection = parseInt(Math.random()*(3-1)+1);
+let pcSelection = parseInt(Math.random()*(4-1)+1);
 
 if (verifyUser() == true) {
     alert("No es una opción válida. 🤷‍♀️")
