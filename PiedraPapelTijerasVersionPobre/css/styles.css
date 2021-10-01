@@ -1,5 +1,16 @@
+*{
+    text-decoration: none;
+    text-align: center;
+}
+
 body{
     background-color: rgb(99, 177, 223);
     color: rgb(37, 37, 37);
     font-family: sans-serif;
+}
+
+.btn{
+    padding: 3px 15px;
+    border-radius: 50vh;
+    width: 100px;
 }
