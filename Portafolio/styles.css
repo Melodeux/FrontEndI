@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: #F6C71E;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+.titulo{
+    height: 20%;
+}
+
+h1{
+    padding: 5% 0 0 0;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-weight: 80;
+    font-size:3vw;
+}
+.container{
+    position: relative;
+    padding: 5% 10% 0 ;
+    background-color: #F6C71E;
+}
+
+.border{
+    position: relative;
+    border-radius: 30px;
+}
+
+.final{
+    position: absolute;
+    width: 100%;
+    height:200px;
+    background-color:#F6C71E;
+}
+.container-canva {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 129.4118%;
+    padding-bottom: 48px;
+    box-shadow: 0 0 2px 0 rgba(63, 69, 81, 0.16);
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    border-radius: 3%;
+    will-change: transform;
+}
+
+.iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
